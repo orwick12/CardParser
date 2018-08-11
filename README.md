@@ -16,11 +16,14 @@ By [Brian Orwick](mailto:orwick12@outlook.com)
 7. Option 2) Download zipfile from https://github.com/orwick12/CardParser/tree/Working
 8. Option 2) Extract files
 9. Option 2) Using Cmdline go to src folder and compile the package
-             javac ./cardparser/BusinessCardParser.java 
-             javac ./cardparser/ContactInfo.java
-             javac ./cardparser/NameData.java
+
+javac ./cardparser/BusinessCardParser.java 
+javac ./cardparser/ContactInfo.java
+javac ./cardparser/NameData.java
+
 10. Option 2) Run BusinessCardParser
-             java cardparser.BusinessCardParser
+java cardparser.BusinessCardParser
+
 11. Enjoy       
 
 # Discussion
