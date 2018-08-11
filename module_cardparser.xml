@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_cardparser" default="compile.module.cardparser">
+  <dirname property="module.cardparser.basedir" file="${ant.file.module_cardparser}"/>
+  
+  <property name="module.jdk.home.cardparser" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.cardparser" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.cardparser" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.cardparser" value="-encoding UTF-8 -source 9 -target 9 ${compiler.args}"/>
+  
+  <property name="cardparser.output.dir" value="${module.cardparser.basedir}/out/production/CardParser"/>
+  <property name="cardparser.testoutput.dir" value="${module.cardparser.basedir}/out/test/CardParser"/>
+  
+  <path id="cardparser.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="cardparser.module.production.classpath">
+    <path refid="${module.jdk.classpath.cardparser}"/>
+  </path>
+  
+  <path id="cardparser.runtime.production.module.classpath">
+    <pathelement location="${cardparser.output.dir}"/>
+  </path>
+  
+  <path id="cardparser.module.classpath">
+    <path refid="${module.jdk.classpath.cardparser}"/>
+    <pathelement location="${cardparser.output.dir}"/>
+  </path>
+  
+  <path id="cardparser.runtime.module.classpath">
+    <pathelement location="${cardparser.testoutput.dir}"/>
+    <pathelement location="${cardparser.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.cardparser">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.cardparser">
+    <patternset refid="excluded.from.module.cardparser"/>
+  </patternset>
+  
+  <path id="cardparser.module.sourcepath">
+    <dirset dir="${module.cardparser.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.cardparser" depends="compile.module.cardparser.production,compile.module.cardparser.tests" description="Compile module CardParser"/>
+  
+  <target name="compile.module.cardparser.production" depends="register.custom.compilers" description="Compile module CardParser; production classes">
+    <mkdir dir="${cardparser.output.dir}"/>
+    <javac2 destdir="${cardparser.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.cardparser}/javac">
+      <compilerarg line="${compiler.args.cardparser}"/>
+      <bootclasspath refid="cardparser.module.bootclasspath"/>
+      <classpath refid="cardparser.module.production.classpath"/>
+      <src refid="cardparser.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.cardparser"/>
+    </javac2>
+    
+    <copy todir="${cardparser.output.dir}">
+      <fileset dir="${module.cardparser.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.cardparser.tests" depends="register.custom.compilers,compile.module.cardparser.production" description="compile module CardParser; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.cardparser" description="cleanup module">
+    <delete dir="${cardparser.output.dir}"/>
+    <delete dir="${cardparser.testoutput.dir}"/>
+  </target>
+</project>

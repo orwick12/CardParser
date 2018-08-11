@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c468dc37-bacb-4128-84ad-2d1084d53557" name="Default Changelist" comment="BusinessCardParser">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bizCards.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/bizCards.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardParser/BusinessCardParser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardParser/ContactInfo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CardParser/NameData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BusinessCardParser.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CardParser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContactInfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NameData.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,25 +36,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="6515" />
-          <entry key="txt" value="164" />
+          <entry key="java" value="6517" />
+          <entry key="txt" value="258" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6515" />
-          <entry key="PLAIN_TEXT" value="164" />
+          <entry key="JAVA" value="6517" />
+          <entry key="PLAIN_TEXT" value="258" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cardparser/BusinessCardParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="26">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,17 +65,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cardparser/ContactInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="26">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cardparser/NameData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+            <state relative-caret-position="-182">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,9 +104,9 @@
         <option value="$PROJECT_DIR$/src/NameData.java" />
         <option value="$PROJECT_DIR$/src/ContactInfo.java" />
         <option value="$PROJECT_DIR$/src/BusinessCardParser.java" />
-        <option value="$PROJECT_DIR$/src/cardparser/ContactInfo.java" />
         <option value="$PROJECT_DIR$/src/cardparser/NameData.java" />
         <option value="$PROJECT_DIR$/src/cardparser/BusinessCardParser.java" />
+        <option value="$PROJECT_DIR$/src/cardparser/ContactInfo.java" />
       </list>
     </option>
   </component>
@@ -153,12 +145,6 @@
               <item name="CardParser" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CardParser" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CardParser" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="cardparser" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -175,7 +161,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="cardparser" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533946605651" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533946837900" />
     <property name="last.edited.regexp" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Seaport" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -187,8 +173,8 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\orwic\Coding\CardParser\src" />
-      <recent name="C:\Users\orwic\Coding\CardParser" />
       <recent name="C:\Users\orwic\Coding\CardParser\src\cardparser" />
+      <recent name="C:\Users\orwic\Coding\CardParser" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -225,7 +211,7 @@
       <updated>1533838404496</updated>
       <workItem from="1533838413931" duration="33710000" />
       <workItem from="1533927038064" duration="1393000" />
-      <workItem from="1533929463982" duration="6676000" />
+      <workItem from="1533929463982" duration="6938000" />
     </task>
     <task id="LOCAL-00001" summary="Commit Project">
       <created>1533838715478</created>
@@ -241,17 +227,24 @@
       <option name="project" value="LOCAL" />
       <updated>1533924936952</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="updated for package use and added the bizCards.txt and census csv to src">
+      <created>1533946739830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533946739830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41779000" />
+    <option name="totallyTimeSpent" value="42041000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12064777" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12064777" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -260,7 +253,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34875444" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34875444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,7 +284,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Commit Project" />
     <MESSAGE value="Adding full project with test file and name csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding full project with test file and name csv" />
+    <MESSAGE value="updated for package use and added the bizCards.txt and census csv to src" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated for package use and added the bizCards.txt and census csv to src" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/contactParser.java" />
@@ -346,27 +340,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cardparser/ContactInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/cardparser/BusinessCardParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/cardparser/NameData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/cardparser/BusinessCardParser.java">
+    <entry file="file://$PROJECT_DIR$/src/cardparser/ContactInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="26">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/cardparser/NameData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
