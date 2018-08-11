@@ -17,14 +17,13 @@ By [Brian Orwick](mailto:orwick12@outlook.com)
 8. Option 2) Extract files
 9. Option 2) Using Cmdline go to src folder and compile the package
 
-javac ./cardparser/BusinessCardParser.java 
-javac ./cardparser/ContactInfo.java
-javac ./cardparser/NameData.java
+10.     javac ./cardparser/BusinessCardParser.java 
+11.     javac ./cardparser/ContactInfo.java
+12.     javac ./cardparser/NameData.java
 
-10. Option 2) Run BusinessCardParser
-java cardparser.BusinessCardParser
-
-11. Enjoy       
+13. Option 2) Run BusinessCardParser
+14.     java cardparser.BusinessCardParser
+15. Enjoy       
 
 # Discussion
 
